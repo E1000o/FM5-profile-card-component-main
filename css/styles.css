@@ -13,7 +13,7 @@ body {
     background-image:  url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
     background-origin: border-box;
-    background-position: -280px -520px, 670px 390px /*-62% 195%, 148% -150%*/;
+    background-position: calc(50% - 517px) calc(50% - 380px),  calc(50% + 460px) calc(50% + 505px)/*-280px -520px, 670px 390px -62% 195%, 148% -150%*/;
 
 }
 
@@ -27,6 +27,7 @@ main {
     height: 374px;
     background: white url("../images/bg-pattern-card.svg") no-repeat top;
     border-radius: 15px;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.15);
 }
 
 img {
@@ -45,7 +46,9 @@ h1 {
 }
 
 .age {
-    color: hsl(0, 0%, 59%);
+    color: hsl(227, 10%, 46%);
+    margin-left: 0.3rem;
+    font-weight: 400;
 }
 
 p {
@@ -57,7 +60,7 @@ p {
 hr {
     width: 100%;
     border: none;
-    border-top: 1px solid hsl(0, 0%, 59%);
+    border-top: 1px solid #e7e7e7;
 }
 
 .stats {
@@ -79,6 +82,7 @@ hr {
     font-size: 1.125rem;
     font-weight: 700;
     color: hsl(229, 23%, 23%);
+    margin-bottom: 0.2rem;
 }
 
 .stats span:nth-child(2) {
@@ -87,6 +91,11 @@ hr {
 }
 
 @media (max-width: 480px) {
+    
+    body {
+        background-position: calc(50% - 390px) calc(50% - 530px),  calc(50% + 490px) calc(50% + 405px);
+    }
+    
     main {
         width: 326px;
     }
