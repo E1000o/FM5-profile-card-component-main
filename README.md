@@ -11,7 +11,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: https://github.com/E1000o/FM5-profile-card-component-main
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://silly-northcutt-4980a5.netlify.app/
 
 ## My process
 
